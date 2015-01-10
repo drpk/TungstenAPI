@@ -49,4 +49,16 @@ public class Location3D {
     public double getZ() {
         return z;
     }
+    
+    public void add(int x, int y, int z){
+        this.x += x;
+        this.y += y;
+        this.z += z;
+    }
+    
+    public void subtract(int x, int y, int z){
+        this.x -= x;
+        this.y -= y;
+        this.z -= z;
+    }
 }
