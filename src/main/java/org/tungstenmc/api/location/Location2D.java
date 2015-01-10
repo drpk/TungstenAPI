@@ -36,4 +36,17 @@ public class Location2D {
     public double getY() {
         return y;
     }
+    
+    /**
+    * Adds an int to the x and y variable.
+    */
+    public void add(int x, int y){
+        this.x = this.x + x;
+        this.y = this.y + y
+    }
+    
+    public void subtract(int x, int y){
+        this.x = this.x - x;
+        this.y = this.y - y
+    }
 }
